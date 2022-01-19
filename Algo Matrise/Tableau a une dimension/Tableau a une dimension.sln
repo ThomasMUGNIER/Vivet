@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tableau a une dimension", "Tableau a une dimension\Tableau a une dimension.csproj", "{AF327620-3CF1-41DA-B91F-4C3EAFF2AE94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF327620-3CF1-41DA-B91F-4C3EAFF2AE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF327620-3CF1-41DA-B91F-4C3EAFF2AE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF327620-3CF1-41DA-B91F-4C3EAFF2AE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF327620-3CF1-41DA-B91F-4C3EAFF2AE94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A78A6EB-69D8-46CE-A4DE-204031A70F92}
+	EndGlobalSection
+EndGlobal

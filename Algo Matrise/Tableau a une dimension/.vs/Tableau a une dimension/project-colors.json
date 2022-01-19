@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "af327620-3cf1-41da-b91f-4c3eaff2ae94": {
+      "ProjectGuid": "af327620-3cf1-41da-b91f-4c3eaff2ae94",
+      "DisplayName": "Tableau a une dimension",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

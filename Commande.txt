@@ -1,0 +1,18 @@
+Apt-get cache mysql
+Sert a chercher tout les packs avec le nom MYSQL
+
+|
+Faire deux commande en une ligne
+
+More
+sert a lire du texte de maniere correcte
+
+Apt dist-upgrade^c
+Faire la maj du noyaux
+
+git clone
+Pour télécharger un projet github
+
+dpkg -i pour install fichier du dessus
+
+ls -a  Afficher les fichier caché

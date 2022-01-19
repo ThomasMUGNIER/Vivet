@@ -1,0 +1,24 @@
+Cours CHEVALIER Arbo Linux
+
+BIN pour les fichier exe
+BOOT pour les fichier de boot
+DEV pour les fichier de configuration des logiciels
+HOME pour les dossier pour les utilisateur de la machine
+LIB pour les DLL
+MEDIA pour les peripherique 
+MNT pour monter des peripherique temporaire
+OPT pour addon
+PROC pour les information system
+ROOT dossier du superutilisateur
+SBIN pour
+SRV pour les services que l'on vas installer
+TMP pour les données temporaires
+USR installer sur la machine
+VAR pour les donnée ui sont variable
+
+r = 4 w =2 x =1 pour chmod
+
+Confidentielliter
+integriter
+identitifier
+disponibilité

@@ -1,0 +1,15 @@
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\bin\Debug\net6.0\Experience Vivet.exe
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\bin\Debug\net6.0\Experience Vivet.deps.json
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\bin\Debug\net6.0\Experience Vivet.runtimeconfig.json
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\bin\Debug\net6.0\Experience Vivet.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\bin\Debug\net6.0\ref\Experience Vivet.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\bin\Debug\net6.0\Experience Vivet.pdb
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.csproj.AssemblyReference.cache
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.AssemblyInfoInputs.cache
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.AssemblyInfo.cs
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.csproj.CoreCompileInputs.cache
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\ref\Experience Vivet.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.pdb
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Experience Vivet\Experience Vivet\obj\Debug\net6.0\Experience Vivet.genruntimeconfig.cache

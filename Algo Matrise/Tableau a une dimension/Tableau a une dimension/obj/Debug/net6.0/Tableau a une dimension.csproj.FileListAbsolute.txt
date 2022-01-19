@@ -1,0 +1,15 @@
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.csproj.AssemblyReference.cache
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.AssemblyInfoInputs.cache
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.AssemblyInfo.cs
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.csproj.CoreCompileInputs.cache
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\bin\Debug\net6.0\Tableau a une dimension.exe
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\bin\Debug\net6.0\Tableau a une dimension.deps.json
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\bin\Debug\net6.0\Tableau a une dimension.runtimeconfig.json
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\bin\Debug\net6.0\Tableau a une dimension.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\bin\Debug\net6.0\ref\Tableau a une dimension.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\bin\Debug\net6.0\Tableau a une dimension.pdb
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\ref\Tableau a une dimension.dll
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.pdb
+C:\Users\seraphin\OneDrive\Documents\Cours\Info\Algo Matrise\Tableau a une dimension\Tableau a une dimension\obj\Debug\net6.0\Tableau a une dimension.genruntimeconfig.cache

@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+#bandeau{
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: auto;
+    height: 65px;
+    background: #ffffff;
+    color: black;
+	gap: 10px;
+	background-image: url("../img/Logo1");
+}
+.image{
+	background-image: url("../img/Japon");
+	background-size: 100% 100%;
+	width : 100%;
+}
+
+#black{
+	padding-bottom: 10%;
+	float: left;
+	background-attachment: fixed;
+    background-image: url("../img/Noir.jpg") ; 
+	opacity: 0.9;
+	background-size: 100% 100%;
+	width : 100%;
+	
+}
+#background{
+	background-size: cover;
+	background-image: url("img/OrangeWallapaper.jpg");
+	
+	max-width: 100%;
+	padding-bottom: 45%;
+}
+#background1{
+	background-size: cover;
+	background-image: url("../img/Japon.jpg"); 
+	background-color: rgba(0, 0 ,0, 1);
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-bottom: 45%;
+}     
+#home{
+	top: 22px;
+	color: black;
+	float:left;
+	position: relative;
+	left: 59%;
+}
+#vente{
+	top: 22px;
+	color: black;
+	float:left;
+	position: relative;
+	left: 64%;
+}
+#gallery{
+	top: 22px;
+	color: black;
+	float:left;
+	position: relative;
+	left: 69%;
+}
+#login{
+	top: 22px;
+	color: black;
+	float:left;
+	position: relative;
+	left: 74%;
+}
+#sitehidden{
+	flex-grow: 2;
+	width: 800px;
+}
+#Titre{
+	position: relative;
+	padding-left: 2%;padding-top: 2%;
+}
+#Titre img{
+	width: 7%;
+}
+#Texte{
+	display : inline;
+	font-weight: 800;
+	font-size: 35px;
+	color: white;
+}
+#Texte1{
+	display : inline;
+	font-weight: 400;
+	font-size: 22px;
+	color: white;
+}
+#Centre{
+	padding-top: 10%;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: 800;
+	position: relative;
+	width: 100%;
+}
+#Copyright{
+	padding-top: 50px;
+	float: none;
+	font-size: small;
+	text-align: center;
+}
+#Image1{
+	position:relative;
+	display: inline-block;
+	background-image: url("../img/Wlop5.jpg");
+    background-repeat: no-repeat;
+	
+}
+#Image2{
+	position:relative;
+	display: inline-block;
+	background-image: url("../img/Wlop2.jpg") ; 
+    background-repeat: no-repeat;
+	
+}
+#Image3{
+	position:relative;
+	display: inline-block;
+	background-image: url("../img/Wlop1.jpg") ; 	
+    background-repeat: no-repeat;
+	
+}
+.container-center-v-img {
+  display: flex;
+  height: 100%;
+  
+}
+ 
+.container-center-v-img > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+.bandeau{
+	margin-top: 50;
+ 
+}
+#paysage ul li {
+	 margin-top:+ 3%;
+	 margin-right: 1%;
+     position:relative;float:left;
+     width:28%;
+	 padding-bottom: 15%;
+	 list-style:none;
+}                
+#paysage ul li a img {
+	transition-property:width,height,z-index,transform;
+    transition-duration:0s;
+    position:absolute;
+    max-width:102%;
+	z-index: 20;
+}
+#paysage ul li a:hover  img {
+	transform: translateX(-20%) translateY(-10%);
+	max-width: 166%;
+	z-index:1000;
+} 
+
+#portrait ul li {
+	 margin-top: 3%;
+	 padding-right: 5%;
+     position:relative;float:left;
+     width:10.5%;
+	 padding-bottom: 15%;
+	 list-style:none;
+}
+#portrait ul li a img {
+    transition-property:width,height,z-index,transform;
+    transition-duration:0s;
+    position:absolute;
+    max-width:97%;
+	z-index: 20;
+}
+#portrait ul li a:hover img {
+	 transform: translateX(-20%) translateY(-10%);
+	max-width: 166%;
+	z-index:1000;
+}  
+#Chercher{
+	background-attachment: fixe;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #000000;
+	opacity: 0.7;
+	width: 20%;
+	height: 800px;
+	color: White;
+} 
+#Expo{
+	padding-left: 30;
+	margin-left: 20%;
+	padding-bottom: 20;
+	width: 100%;
+}
+#M1{
+	font-size: 18;
+	margin-left: -2%;
+	list-style-type: none;
+	text-decoration: none ;
+}
+#M2{
+	margin-left: -15%;
+	font-size: 20;
+	padding-top: 10;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none ;
+}
+#menu li {
+	margin-left: 0;
+	width:150px;
+	padding: 5;
+	background: rgba(0,0,0,0.8);
+	display:inline-block; 
+	}
+#menu li a{
+	align-content: right;
+	list-style-type: none;
+	text-decoration: none ;
+	color: rgba(255,255,255)
+	}
+#menu ul li {
+	display:block;	
+	}
+#menu li:hover ul{
+	left: auto;
+}
+#menu li:hover {
+	background: rgba(155,155,155,0.5);
+	cursor:pointer;
+	}
+#title{
+	font-size: 30px;
+	padding-right: 22%;
+	font-weight: 600;
+	text-align: center;
+	color: black;
+}
+#Image ul li {
+     position:relative;float:left;
+     width:340px;height:260px;list-style:none;
+	  z-index:10000;
+}        
+#Image ul li a {
+     display: inline-block;
+     width:212px;height:180px;
+     margin-top:40px;margin-left:0px;
+     border:0px solid rgba(0,0,0);
+}         
+#Image ul li a img {
+     position:absolute;
+     width:286px;height:160px;
+}
+#Image ul li a:hover img {
+	background-color: black;
+	opacity: 0.8;
+}
+#Bandeauvertical{
+	float: left;
+	width: 5%;
+	height: 100%;
+	background-color: white;
+	
+}
+#Decouvrete{
+	padding-bottom: 22%;
+	width: 32%;
+	margin-left: 63%;
+	background-color: white;
+	color: black;
+	opacity: 1;	
+}
+#Imagedecouvrete ul li {
+     position:relative;float:left;
+     width:50%;
+	 padding-bottom: 35%;
+	 list-style:none;
+}        
+       
+#Imagedecouvrete ul li a img {
+     position:absolute;
+     max-width:90%;
+}
+#Imagedecouvrete ul li a:hover img {
+	background-color: black;
+	opacity: 0.8;
+}  
+#M3{
+	padding-top: 60%;
+	font-size: 15px;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none ;
+}
+#Title1{
+	padding: 4%;
+	font-weight: 800;
+	font-size: 30px;
+}
+hr{
+	width: 98%;
+    border-top: 0.5px solid black;
+	border-bottom: 0.5px  black;
+}
+figcaption {
+opacity:0;
+text-align:center;
+position:absolute;
+bottom:0;
+left:-12%;
+right:0;
+}
+ 
+#Imagedecouvrete:hover figcaption {
+transition:all 0.2s;
+  opacity:1;
+}
+section.login-container {
+  font-size: 15px;
+  display: flex;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+section.login-container > div {
+  width: 450px;
+  margin: auto;
+  padding-top: 30px;padding-bottom: 30px; padding-left: 30px;padding-right: 30px;
+  text-align: center;
+  background: White;
+  border-radius: 3px;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+section.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="password"],
+form input[type="text"],
+form button[type="submit"] {
+  width: 100%;
+
+  margin-bottom: 35px; margin-bottom: 25px;
+  padding: 18px;
+
+  color: black;
+
+  border: 1px solid #CCC;
+  border-radius: 1px;
+
+  
+}
+input[type="text"]:focus,
+form input[type="text"]:hover,
+form input[type="password"]:focus,
+form input[type="password"]:hover {
+  background-color: #ccc;
+}
+
+form button[type="submit"] {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+
+  background-color: #2860AE;
+}
+form button[type="submit"]:focus,
+form button[type="submit"]:hover {
+  background-color: #183174;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{box-sizing: border-box}
+
+#Artiste img{
+	width: 100%;
+	height: 83%;
+}
+
+input[type=radio]{
+position: absolute;
+left: -9999px
+
+}
+.cadre-demo1 label{
+cursor:pointer	
+}
+
+.cadre-demo1{
+margin-bottom: 5%;
+float: left;
+position: relative;
+max-width:  55%;
+margin-left: 3%; margin-top: 4%; 
+max-height: 100%;	
+}
+.photos-mini{	
+padding-top: 56.67%;
+display: flex;
+
+	}
+.miniature{
+flex: 50;
+padding:.25rem;
+	
+}
+.fenetre{
+position: absolute;
+top: 0;
+transition:all .0s;
+opacity: 0
+	
+	}
+.fen:checked~ .fenetre{
+left: 0;
+opacity: 1
+	
+	}
+#Commenter img{
+	max-height: 12%;
+	max-width: 12%;
+	padding-right: 5%;
+	}
+#Commenter{
+	padding: 1%;
+	width: 55%;
+	margin-left: 5%;margin-top: 30%;margin-bottom: 20%;
+	color: black;
+	background-color: white;
+	opacity: 0.9;
+}
+#Commenter1{
+	margin-top: 4%;margin-left: 4%;
+	padding-bottom: 2%;padding-left: 3%;padding-top: 2%;padding-right: 0%;
+	width: 92%;
+	color: white;
+	background-image: url("../img/Noir.jpg") ; 
+	height: 100%;
+}
+h5 {
+	display: inline;
+}
+
+
+#maof{
+	background-image: url("../img/MAO.png");
+	background-size: 100% 100%;
+	width : 100%;
+}

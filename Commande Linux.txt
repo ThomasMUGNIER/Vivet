@@ -1,0 +1,11 @@
+Commande Unbuntu:
+
+
+Whereis pwd 
+trouver emplacement 
+
+mkdir -p 
+pour crée une arborescent d'un coup
+
+mv
+rename

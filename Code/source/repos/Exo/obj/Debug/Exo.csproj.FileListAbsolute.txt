@@ -1,0 +1,7 @@
+C:\Users\Seraphin\source\repos\Exo\bin\Debug\Exo.exe.config
+C:\Users\Seraphin\source\repos\Exo\bin\Debug\Exo.exe
+C:\Users\Seraphin\source\repos\Exo\bin\Debug\Exo.pdb
+C:\Users\Seraphin\source\repos\Exo\obj\Debug\Exo.csproj.AssemblyReference.cache
+C:\Users\Seraphin\source\repos\Exo\obj\Debug\Exo.csproj.CoreCompileInputs.cache
+C:\Users\Seraphin\source\repos\Exo\obj\Debug\Exo.exe
+C:\Users\Seraphin\source\repos\Exo\obj\Debug\Exo.pdb

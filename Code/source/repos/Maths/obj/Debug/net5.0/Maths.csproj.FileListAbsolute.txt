@@ -1,0 +1,16 @@
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.csproj.AssemblyReference.cache
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.AssemblyInfoInputs.cache
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.AssemblyInfo.cs
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.csproj.CoreCompileInputs.cache
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\Maths.exe
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\Maths.deps.json
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\Maths.runtimeconfig.json
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\Maths.runtimeconfig.dev.json
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\Maths.dll
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\ref\Maths.dll
+C:\Users\Seraphin\source\repos\Maths\bin\Debug\net5.0\Maths.pdb
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.dll
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\ref\Maths.dll
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.pdb
+C:\Users\Seraphin\source\repos\Maths\obj\Debug\net5.0\Maths.genruntimeconfig.cache

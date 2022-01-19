@@ -1,0 +1,4 @@
+Faire un serveur web
+sous php,db,apache
+
+Virtualisation virtualiser des ressources d'un ordinateur/serveur physique
