@@ -1,0 +1,80 @@
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.exe
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.deps.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.runtimeconfig.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.pdb
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.AssemblyReference.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.GenerateResource.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.GeneratedMSBuildEditorConfig.editorconfig
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.AssemblyInfoInputs.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.AssemblyInfo.cs
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.CoreCompileInputs.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\refint\GereContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.pdb
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.genruntimeconfig.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\ref\GereContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.frm_GereContact.resources
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.deps.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.runtimeconfig.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.exe
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.pdb
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.CopyComplete
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\dll_Contacts.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\dll_Contacts.pdb
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.deps.json
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.runtimeconfig.json
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.exe
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.exe
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.deps.json
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.runtimeconfig.json
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.dll
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.pdb
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\dll_Contacts.dll
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.dll
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\dll_Contacts.pdb
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.pdb
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.AssemblyReference.cache
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.frm_GereContact.resources
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.GenerateResource.cache
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.AssemblyInfoInputs.cache
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.AssemblyInfo.cs
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.CoreCompileInputs.cache
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.CopyComplete
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.dll
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\refint\GereContact.dll
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.pdb
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.genruntimeconfig.cache
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\ref\GereContact.dll
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.Vue.frm_DetailEntreprise.resources
+C:\Users\FV\Documents\GitHub\afil_2022_sio1_slam\POO\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.frm_DetailContact.resources
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.AssemblyReference.cache
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.frm_DetailContact.resources
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.Vue.frm_DetailEntreprise.resources
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.Vue.frm_Detailprojet.resources
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.frm_GereContact.resources
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.GenerateResource.cache
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.AssemblyInfoInputs.cache
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.AssemblyInfo.cs
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.CoreCompileInputs.cache
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.dll
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\refint\GereContact.dll
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.pdb
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.deps.json
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.runtimeconfig.json
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.exe
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.exe
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.deps.json
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.runtimeconfig.json
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.dll
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\GereContact.pdb
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\dll_Contacts.dll
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.dll
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\dll_Contacts.pdb
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\bin\Debug\net6.0-windows\TestContact.pdb
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.csproj.CopyComplete
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\GereContact.genruntimeconfig.cache
+C:\Users\seraphin\OneDrive\Documents\projets_mugnier\Devoir 1\TestContact\GereContact\obj\Debug\net6.0-windows\ref\GereContact.dll

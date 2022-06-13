@@ -1,0 +1,16 @@
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\bin\Debug\net5.0\TestContact.exe
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\bin\Debug\net5.0\TestContact.deps.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\bin\Debug\net5.0\TestContact.runtimeconfig.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\bin\Debug\net5.0\TestContact.runtimeconfig.dev.json
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\bin\Debug\net5.0\TestContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\bin\Debug\net5.0\TestContact.pdb
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.GeneratedMSBuildEditorConfig.editorconfig
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.AssemblyInfoInputs.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.AssemblyInfo.cs
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.csproj.CoreCompileInputs.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\ref\TestContact.dll
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.pdb
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.genruntimeconfig.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\TestContact.csproj.AssemblyReference.cache
+C:\Affaires\DepotGit\AFIL\2022\afil_2022_sio1_slam\POO\TestContact\TestContact\obj\Debug\net5.0\refint\TestContact.dll

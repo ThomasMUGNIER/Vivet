@@ -1,0 +1,16 @@
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\Hello World.exe
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\Hello World.deps.json
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\Hello World.runtimeconfig.json
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\Hello World.runtimeconfig.dev.json
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\Hello World.dll
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\ref\Hello World.dll
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\bin\Release\net5.0\Hello World.pdb
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.csprojAssemblyReference.cache
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.AssemblyInfoInputs.cache
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.AssemblyInfo.cs
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.csproj.CoreCompileInputs.cache
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.dll
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\ref\Hello World.dll
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.pdb
+C:\Users\quent\Desktop\TP Mr Vivet\Hello World\obj\Release\net5.0\Hello World.genruntimeconfig.cache
