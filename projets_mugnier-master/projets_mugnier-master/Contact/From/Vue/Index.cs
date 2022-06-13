@@ -10,11 +10,14 @@ namespace From
 
         private Dictionary<int, cls_entreprise> c_dic_entreprise;
         private Dictionary<int, cls_contact> c_dic_contact;
-        Cls_DAO_Entreprise c_DAO_entreprise = new Cls_DAO_Entreprise();
-        Cls_DAO_Contact c_DAO_contact = new Cls_DAO_Contact();
+        private cls_DAO_Entreprise_BD c_DAO_entreprise;
+        private cls_DAO_Contact_BD c_DAO_contact;
         public Index()
-        {
-            InitializeComponent();
+        { 
+        InitializeComponent();
+        c_DAO_entreprise = new cls_DAO_Entreprise_BD();
+        c_DAO_contact = new cls_DAO_Contact_BD();
+
         }
 
         /// <summary>
@@ -41,10 +44,23 @@ namespace From
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            cls_entreprise[] l_tab_entreprise = cls_DAO_entreprise.lire_entreprise_CSV();
-            list_entreprise.Items.AddRange(l_tab_entreprise);
-            cls_contact[] l_tab_contact = cls_DAO_contact.lire_contact_CSV(l_tab_entreprise);
-            list_contact.Items.AddRange(l_tab_contact);
+            // Permet de créer les entreprises et les contacts et de les enregistrer dans un fichier CSV
+            c_dic_entreprise = c_DAO_entreprise.cree_entreprise();
+            c_DAO_entreprise.save_entreprise_CSV(c_dic_entreprise.Values.ToList());
+            c_dic_contact = c_DAO_contact.cree_contact(c_dic_entreprise.Values.ToList());
+            c_DAO_contact.save_contact_CSV(c_dic_contact.Values.ToList());
+
+            // Permet de générer les entreprises à partir d'un fichier au format CSV
+            c_dic_entreprise = c_DAO_entreprise.lire_entreprise_CSV();
+
+            // Permet d'ajouter les entreprises générées à la liste de l'application
+            list_entreprise.Items.AddRange(c_dic_entreprise.Values.ToArray());
+
+            // Permet de générer les contacts à partir d'un fichier au format CSV
+            c_dic_contact = c_DAO_contact.lire_contact_CSV(c_dic_entreprise.Values.ToList());
+
+            // Permet d'ajouter les contacts générées à la liste de l'application
+            list_contact.Items.AddRange(c_dic_contact.Values.ToArray());
         }
         /// <summary>
         /// Permet d'ouvrir detail_entreprise
@@ -55,7 +71,7 @@ namespace From
         private void list_entreprise_DoubleClick(object sender, EventArgs e)
         {
             cls_entreprise l_entreprise_select = (cls_entreprise)list_entreprise.SelectedItem;
-            detail_entreprise l_detail_entreprise = new detail_entreprise(l_entreprise_select);
+            detail_entreprise l_detail_entreprise = new(l_entreprise_select, this);
             l_detail_entreprise.ShowDialog();
 
 
@@ -69,7 +85,7 @@ namespace From
 
         private void entrepriseToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            cls_entreprise Entreprise = new cls_entreprise((list_entreprise.Items.Count + 1), "Raison Sociale " + (list_entreprise.Items.Count + 1), cls_DAO_entreprise.codepostalealeatoire(), "Commune " + (list_entreprise.Items.Count + 1), "mail." + (list_contact.Items.Count + 1) + "@gmail.com", "www.URL" + (list_entreprise.Items.Count + 1) + ".fr");
+            cls_entreprise Entreprise = new cls_entreprise((list_entreprise.Items.Count + 1), "Raison Sociale " + (list_entreprise.Items.Count + 1), Cls_DAO_Entreprise.codepostalealeatoire(), "Commune " + (list_entreprise.Items.Count + 1), "mail." + (list_contact.Items.Count + 1) + "@gmail.com", "www.URL" + (list_entreprise.Items.Count + 1) + ".fr");
             list_entreprise.Items.Add(Entreprise);
         }
 
@@ -122,14 +138,6 @@ namespace From
             detail_contact l_FrmDetailContact = new(null, this);
 
             l_FrmDetailContact.ShowDialog();
-        }
-
-        /// <summary>
-        /// Permet de retourner le c-tab_entreprise
-        /// </summary>
-        public cls_entreprise[]? List_entreprise
-        {
-            get { return l_tab_entreprise; }
         }
 
         /// <summary>
@@ -284,6 +292,11 @@ namespace From
 
             // Renvoie sur le bon onglet
             Page1.SelectedIndex = 0;
+        }
+
+        private void list_entreprise_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -40,7 +40,7 @@ namespace Library.B
 
             for (int j = 0; j < 200; j++)
             {
-                l_dic_contact.Add((j + 1), new cls_contact((j + 1), "Nom " + (j + 1), "Prenom " + (j + 1), datealeatoire(), "Adresse " + (j + 1), "mail." + (j + 1) + "@gmail.com", telephonealeatoire(), null));
+                l_dic_contact.Add((j + 1), new cls_contact("Nom " + (j + 1), "Prenom " + (j + 1), datealeatoire(), "Adresse " + (j + 1), "mail." + (j + 1) + "@gmail.com", phonerandom(), (j + 1), null));
 
                 Random Rand = new();
                 int l_numero = Rand.Next(0, (p_list_entreprise.Count + (p_list_entreprise.Count * 25) / 100));
@@ -93,11 +93,11 @@ namespace Library.B
             // Pour gérer la liaison avec les entreprises quand on importe le fichier CSV
             if (l_IDStr != "")
             {
-                return new cls_contact(ID, nom, prenom, datedenaissance, Adresse, mail, phone, entreprise_by_ID(int.Parse(l_IDStr), p_list_entreprise));
+                return new cls_contact(nom, prenom, datedenaissance, Adresse, mail, phone, ID, entreprise_by_ID(int.Parse(l_IDStr), p_list_entreprise));
             }
             else
             {
-                return new cls_contact(ID, nom, prenom, datedenaissance, Adresse, mail, phone, null);
+                return new cls_contact(nom, prenom, datedenaissance, Adresse, mail, phone, ID, null);
             }
         }
 

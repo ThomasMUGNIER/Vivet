@@ -83,3 +83,4 @@ C:\Users\LC\Documents\Cours\Vivet\projets_mugnier-master\projets_mugnier-master\
 C:\Users\LC\Documents\Cours\Vivet\projets_mugnier-master\projets_mugnier-master\Contact\Contact\obj\Debug\net6.0\Contact.pdb
 C:\Users\LC\Documents\Cours\Vivet\projets_mugnier-master\projets_mugnier-master\Contact\Contact\obj\Debug\net6.0\Contact.genruntimeconfig.cache
 C:\Users\LC\Documents\Cours\Vivet\projets_mugnier-master\projets_mugnier-master\Contact\Contact\obj\Debug\net6.0\ref\Contact.dll
+C:\Users\LC\Documents\Cours\Vivet\projets_mugnier-master\projets_mugnier-master\Contact\Contact\bin\Debug\net6.0\Npgsql.dll

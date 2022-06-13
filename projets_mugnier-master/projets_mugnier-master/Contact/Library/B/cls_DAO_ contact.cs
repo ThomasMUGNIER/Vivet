@@ -41,7 +41,7 @@ namespace Library.B
 
             for (int j = 0; j < 200; j++)
             {
-                l_dic_contact.Add((j + 1), new cls_contact((j + 1), "Nom " + (j + 1), "Prenom " + (j + 1), datealeatoire(), "Adresse " + (j + 1), "mail." + (j + 1) + "@gmail.com", telephonealeatoire(), null));
+                l_dic_contact.Add((j + 1), new cls_contact("Nom " + (j + 1), "Prenom " + (j + 1), datealeatoire(), "Adresse " + (j + 1), "mail." + (j + 1) + "@gmail.com", phonerandom(), (j + 1), null));
 
                 Random Rand = new();
                 int l_numero = Rand.Next(0, (p_list_entreprise.Count + (p_list_entreprise.Count * 25) / 100));
@@ -84,21 +84,21 @@ namespace Library.B
         {
             string[] l_tabInfosSTR = p_chaine_CSV.Split(';');
             int ID = int.Parse(l_tabInfosSTR[0]);
-            string Nom = l_tabInfosSTR[1];
-            string Prenom = l_tabInfosSTR[2];
-            DateTime DateDeNaissance = DateTime.Parse(l_tabInfosSTR[3]);
+            string nom = l_tabInfosSTR[1];
+            string prenom = l_tabInfosSTR[2];
+            DateTime datedenaissance = DateTime.Parse(l_tabInfosSTR[3]);
             string Adresse = l_tabInfosSTR[4];
-            string Mail = l_tabInfosSTR[5];
-            string Telephone = l_tabInfosSTR[6];
-            string l_IDStr = l_tabInfosSTR[7];
+            string mail = l_tabInfosSTR[5];
+            string phone = l_tabInfosSTR[6];
+            string l_ID = l_tabInfosSTR[7];
             // Pour gérer la liaison avec les entreprises quand on importe le fichier CSV
-            if (l_IDStr != "")
+            if (l_ID != "")
             {
-                return new cls_contact(ID, Nom, Prenom, DateDeNaissance, Adresse, Mail, Telephone, entreprise_by_ID(int.Parse(l_IDStr), p_list_entreprise));
+                return new cls_contact(nom, prenom, datedenaissance, Adresse, mail, phone, ID, entreprise_by_ID(int.Parse(l_ID), p_list_entreprise));
             }
             else
             {
-                return new cls_contact(ID, Nom, Prenom, DateDeNaissance, Adresse, Mail, Telephone, null);
+                return new cls_contact(nom, prenom, datedenaissance, Adresse, mail, phone, ID, null);
             }
         }
 
@@ -139,14 +139,12 @@ namespace Library.B
             return start.AddDays(l_date.Next(l_range));
         }
 
-        /// <summary>
-        /// Retourner un nunéro de téléphone aléatoire
-        /// </summary>
-        public static int telephonealeatoire()
+        public static string phonerandom()
         {
-            Random l_random = new Random();
-            int phone = l_random.Next(100000000, 700000000);
-            return phone;
+            Random l_random = new();
+            int l_randomphone = l_random.Next(100000000, 700000000);
+            string l_phone = "0" + Convert.ToString(l_randomphone);
+            return l_phone;
         }
 
         public static int CalculAge(DateTime pDateDeNaissance)

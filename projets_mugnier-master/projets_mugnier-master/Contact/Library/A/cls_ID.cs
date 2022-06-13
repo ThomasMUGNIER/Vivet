@@ -9,7 +9,7 @@ using Library.A;
 
 namespace Library.A
 {
-    public class cls_ID
+    public class cls_ID:Object
     {
         private int c_ID;
         static int NumObjt = 0;
@@ -26,7 +26,8 @@ namespace Library.A
 
         public static int NouvelID()
         {
-            return NumObjt + 1;
+            NumObjt++;
+            return NumObjt;
         }
 
         public int ID

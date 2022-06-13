@@ -12,10 +12,10 @@ namespace Library.A
     public class cls_entreprise : cls_ID
     {
         public string Raisonsociale;
-        private int codepostale;
-        private string Mail;
-        private string commune;
-        private string URLl;
+        public string codepostale;
+        public string Mail;
+        public string commune;
+        public string URLl;
 
         /// <summary>
         /// Constructeur
@@ -27,7 +27,7 @@ namespace Library.A
         /// <param name="pURL"></param>
         /// <param name="pID"></param>
 
-        public cls_entreprise(int pID, string praisonsociale, int pcodepostale, string pmail, string pcommune, string pURL) : base(pID)
+        public cls_entreprise(int pID, string praisonsociale, string pcodepostale, string pmail, string pcommune, string pURL) : base(pID)
         {
             setmail(pmail);
             setURL(pURL);
@@ -113,7 +113,7 @@ namespace Library.A
         /// <summary>
         /// Permet de definir et de retourner le codepostale
         /// </summary>
-        public int Codepostale
+        public string Codepostale
         {
             get
             {

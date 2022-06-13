@@ -11,25 +11,25 @@ namespace Library.A
 {
     public class cls_contact : cls_ID
     {
-        private string Nom;
-        private string Prenom;
-        private int Phone;
-        private string Mail;
-        private DateTime Datedenaissance;
-        private string Adresse;
-        private int Age;
+        public string? Nom;
+        public string? Prenom;
+        public string? Phone;
+        public string? Mail;
+        public DateTime Datedenaissance;
+        public string? Adresse;
+        public int Age;
         public cls_entreprise? entreprise;
 
         /// <summary>
         /// Constructeur
         /// </summary>
-        /// <param name="pNom"></param>
-        /// <param name="pPrenom"></param>
-        /// <param name="pDateDeNaissance"></param>
-        /// <param name="pAdresse"></param>
-        /// <param name="pMail"></param>
-        /// <param name="pTelephone"></param>
-        public cls_contact(string pnom, string pprenom, DateTime pdatedenaissance, string padresse, string pmail, int pphone, int pID) : base(pID)
+        /// <param name="pnom"></param>
+        /// <param name="pprenom"></param>
+        /// <param name="pdatedenaissance"></param>
+        /// <param name="padresse"></param>
+        /// <param name="pmail"></param>
+        /// <param name="pphone"></param>
+        public cls_contact(string pnom, string pprenom, DateTime pdatedenaissance, string padresse, string pmail, string pphone, int pID, cls_entreprise? p_entreprise) : base(pID)
         {
             Nom = pnom;
             Prenom = pprenom;
@@ -38,17 +38,6 @@ namespace Library.A
             Mail = pmail;
             Phone = pphone;
         }
-
-        /// <summary>
-        /// Constructeur
-        /// </summary>
-        /// <param name="pNom"></param>
-        /// <param name="pPrenom"></param>
-        /// <param name="pDatedenaissance"></param>
-        /// <param name="pAdresse"></param>
-        /// <param name="pMail"></param>
-        /// <param name="pphone"></param>
-        /// <param name="pEntreprise"></param>
 
         /// <summary>
         /// Permet de redéfinir la méthode ToString de la classe cls_Entreprise
@@ -88,32 +77,38 @@ namespace Library.A
             }
 
         }
+ 
         /// <summary>
-        /// Permet de récupérer le nunéro de téléphone
+        /// Permet de définir et de récupérer le téléphone
         /// </summary>
-        public int phone
+        public string? phone
         {
-            get { return Phone; }
-        }
-
-        /// <summary>
-        /// Permet de définir le nunéro de téléphone
-        /// </summary>
-
-        public void setphone(int pphone)
-        {
-            Regex regex = new Regex(@"^\(?([1-7])\)?[-. ]?([0-9]{8})$");
-            Match match = regex.Match(Convert.ToString(pphone));
-            if (match.Success)
+            get
             {
-                Phone = pphone;
+                return Phone;
             }
-            else
+
+            set
             {
-                throw new Exception("Le format du numéro de téléphone n'est pas valide.");
+                if (value != null)
+                {
+                    Regex regex = new(@"^\(?([0-7])\)?[-. ]?([0-9]{9})$");
+                    Match match = regex.Match(Convert.ToString(value));
+                    if (match.Success)
+                    {
+                        phone = value;
+                    }
+                    else
+                    {
+                        throw new Exception("Le format du numéro de téléphone n'est pas valide.");
+                    }
+                }
+                else
+                {
+                    throw new Exception("Le numéro de téléphone ne doit pas être null ou vide");
+                }
             }
         }
-
         /// <summary>
         /// Permet de définir et de récupérer l'adresse email
         /// </summary>
@@ -177,7 +172,6 @@ namespace Library.A
         public string prenom
         {
             get { return Prenom; }
-            set { Prenom = value; }
         }
         /// <summary>
         /// Permet de définir et de récupérer l'entreprise

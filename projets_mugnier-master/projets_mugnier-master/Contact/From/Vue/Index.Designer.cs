@@ -40,6 +40,7 @@
             this.delete_entreprise = new System.Windows.Forms.Button();
             this.add_entreprise = new System.Windows.Forms.Button();
             this.list_entreprise = new System.Windows.Forms.ListBox();
+            this.entrepriseToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.nouveauToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -51,7 +52,6 @@
             this.entrepriseToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.Export = new System.Windows.Forms.ToolStripMenuItem();
-            this.entrepriseToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.contactToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.Page1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -90,10 +90,10 @@
             this.tabPage1.Controls.Add(this.delete_contact);
             this.tabPage1.Controls.Add(this.add_contact);
             this.tabPage1.Controls.Add(this.list_contact);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1320, 358);
+            this.tabPage1.Size = new System.Drawing.Size(1320, 353);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Contact";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -121,10 +121,10 @@
             // list_contact
             // 
             this.list_contact.FormattingEnabled = true;
-            this.list_contact.ItemHeight = 15;
+            this.list_contact.ItemHeight = 20;
             this.list_contact.Location = new System.Drawing.Point(6, 3);
             this.list_contact.Name = "list_contact";
-            this.list_contact.Size = new System.Drawing.Size(1158, 349);
+            this.list_contact.Size = new System.Drawing.Size(1158, 344);
             this.list_contact.TabIndex = 3;
             this.list_contact.DoubleClick += new System.EventHandler(this.list_contact_DoubleClick);
             // 
@@ -134,10 +134,10 @@
             this.tabPage2.Controls.Add(this.delete_entreprise);
             this.tabPage2.Controls.Add(this.add_entreprise);
             this.tabPage2.Controls.Add(this.list_entreprise);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1320, 358);
+            this.tabPage2.Size = new System.Drawing.Size(1320, 353);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Entreprise";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -146,7 +146,7 @@
             // 
             this.delete_entreprise.Location = new System.Drawing.Point(1161, 171);
             this.delete_entreprise.Name = "delete_entreprise";
-            this.delete_entreprise.Size = new System.Drawing.Size(153, 172);
+            this.delete_entreprise.Size = new System.Drawing.Size(153, 162);
             this.delete_entreprise.TabIndex = 6;
             this.delete_entreprise.Text = "Supprimer une entreprise";
             this.delete_entreprise.UseVisualStyleBackColor = true;
@@ -165,12 +165,20 @@
             // list_entreprise
             // 
             this.list_entreprise.FormattingEnabled = true;
-            this.list_entreprise.ItemHeight = 15;
+            this.list_entreprise.ItemHeight = 20;
             this.list_entreprise.Location = new System.Drawing.Point(6, 9);
             this.list_entreprise.Name = "list_entreprise";
-            this.list_entreprise.Size = new System.Drawing.Size(1159, 334);
+            this.list_entreprise.Size = new System.Drawing.Size(1163, 324);
             this.list_entreprise.TabIndex = 2;
+            this.list_entreprise.SelectedIndexChanged += new System.EventHandler(this.list_entreprise_SelectedIndexChanged);
             this.list_entreprise.DoubleClick += new System.EventHandler(this.list_entreprise_DoubleClick);
+            // 
+            // entrepriseToolStripMenuItem2
+            // 
+            this.entrepriseToolStripMenuItem2.Name = "entrepriseToolStripMenuItem2";
+            this.entrepriseToolStripMenuItem2.Size = new System.Drawing.Size(158, 26);
+            this.entrepriseToolStripMenuItem2.Text = "Entreprise";
+            this.entrepriseToolStripMenuItem2.Click += new System.EventHandler(this.entrepriseToolStripMenuItem2_Click);
             // 
             // contextMenuStrip1
             // 
@@ -203,7 +211,7 @@
             this.Export});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1366, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1366, 28);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -213,13 +221,13 @@
             this.Fichier.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.quitterToolStripMenuItem});
             this.Fichier.Name = "Fichier";
-            this.Fichier.Size = new System.Drawing.Size(54, 20);
+            this.Fichier.Size = new System.Drawing.Size(66, 24);
             this.Fichier.Text = "Fichier";
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(138, 26);
             this.quitterToolStripMenuItem.Text = "Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
@@ -230,20 +238,20 @@
             this.entrepriseToolStripMenuItem1,
             this.contactToolStripMenuItem1});
             this.Import.Name = "Import";
-            this.Import.Size = new System.Drawing.Size(55, 20);
+            this.Import.Size = new System.Drawing.Size(68, 24);
             this.Import.Text = "Import";
             // 
             // entrepriseToolStripMenuItem1
             // 
             this.entrepriseToolStripMenuItem1.Name = "entrepriseToolStripMenuItem1";
-            this.entrepriseToolStripMenuItem1.Size = new System.Drawing.Size(126, 22);
+            this.entrepriseToolStripMenuItem1.Size = new System.Drawing.Size(158, 26);
             this.entrepriseToolStripMenuItem1.Text = "Entreprise";
             this.entrepriseToolStripMenuItem1.Click += new System.EventHandler(this.entrepriseToolStripMenuItem1_Click);
             // 
             // contactToolStripMenuItem1
             // 
             this.contactToolStripMenuItem1.Name = "contactToolStripMenuItem1";
-            this.contactToolStripMenuItem1.Size = new System.Drawing.Size(126, 22);
+            this.contactToolStripMenuItem1.Size = new System.Drawing.Size(158, 26);
             this.contactToolStripMenuItem1.Text = "Contact";
             this.contactToolStripMenuItem1.Click += new System.EventHandler(this.contactToolStripMenuItem1_Click);
             // 
@@ -254,20 +262,13 @@
             this.entrepriseToolStripMenuItem2,
             this.contactToolStripMenuItem2});
             this.Export.Name = "Export";
-            this.Export.Size = new System.Drawing.Size(53, 20);
+            this.Export.Size = new System.Drawing.Size(66, 24);
             this.Export.Text = "Export";
-            // 
-            // entrepriseToolStripMenuItem2
-            // 
-            this.entrepriseToolStripMenuItem2.Name = "entrepriseToolStripMenuItem2";
-            this.entrepriseToolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
-            this.entrepriseToolStripMenuItem2.Text = "Entreprise";
-            this.entrepriseToolStripMenuItem2.Click += new System.EventHandler(this.entrepriseToolStripMenuItem2_Click);
             // 
             // contactToolStripMenuItem2
             // 
             this.contactToolStripMenuItem2.Name = "contactToolStripMenuItem2";
-            this.contactToolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
+            this.contactToolStripMenuItem2.Size = new System.Drawing.Size(158, 26);
             this.contactToolStripMenuItem2.Text = "Contact";
             this.contactToolStripMenuItem2.Click += new System.EventHandler(this.contactToolStripMenuItem2_Click);
             // 
@@ -292,7 +293,6 @@
         #endregion
         private ListBox lsb_ListeContact;
         private Button btn_AfficheEntreprise;
-        private TabControl Page1;
         private TabPage tabPage1;
         private TabPage tabPage2;
         private ContextMenuStrip contextMenuStrip1;
@@ -303,7 +303,6 @@
         private ToolStripMenuItem Fichier;
         private ToolStripMenuItem Import;
         private ToolStripMenuItem Export;
-        private ListBox list_contact;
         public ListBox list_entreprise;
         private ToolStripMenuItem quitterToolStripMenuItem;
         private ToolStripMenuItem entrepriseToolStripMenuItem1;
@@ -314,5 +313,7 @@
         private Button delete_contact;
         private Button delete_entreprise;
         private Button add_entreprise;
+        public TabControl Page1;
+        public ListBox list_contact;
     }
 }

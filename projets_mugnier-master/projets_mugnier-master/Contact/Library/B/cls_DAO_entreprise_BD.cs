@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Library.B;
 using Library.A;
+using Npgsql;
 
 namespace Library.B
 {
@@ -50,13 +51,13 @@ namespace Library.B
         {
             string[] l_tabInfosSTR = p_chaine_CSV.Split(';');
             int ID = int.Parse(l_tabInfosSTR[0]);
-            string Raisonsociale = l_tabInfosSTR[1];
-            string Codepostale = l_tabInfosSTR[2];
+            string raisonsociale = l_tabInfosSTR[1];
+            string codepostale = l_tabInfosSTR[2];
             string Commune = l_tabInfosSTR[3];
             string mail = l_tabInfosSTR[4];
             string URL = l_tabInfosSTR[5];
 
-            return new cls_entreprise(ID, Raisonsociale, Codepostale, Commune, mail, URL);
+            return new cls_entreprise(ID, raisonsociale, codepostale, Commune, mail, URL);
         }
 
         /// <summary>
@@ -64,20 +65,23 @@ namespace Library.B
         /// </summary>
         public override Dictionary<int, cls_entreprise> lire_entreprise_CSV()
         {
-            Dictionary<int, cls_entreprise> l_dic_entreprise = new();
-            using (StreamReader l_StreamReader = new("Entreprises.csv"))
+            Dictionary<int, cls_entreprise> l_dicEntreprise = new Dictionary<int, cls_entreprise>();
+            NpgsqlCommand l_cmd = new NpgsqlCommand("SELECT ID,raison_sociale,code_postal,commune,mail,URL FROM entreprise", cls_DAO_BD.Connexion);
+            NpgsqlDataReader l_reader = l_cmd.ExecuteReader();
+            while (l_reader.Read())
             {
-                string? l_ligne = l_StreamReader.ReadLine();
-
-                while (l_ligne != null)
-                {
-                    cls_entreprise l_entreprise = crea_entreprise(l_ligne);
-                    l_dic_entreprise.Add(l_entreprise.ID, l_entreprise);
-                    l_ligne = l_StreamReader.ReadLine();
-                }
-                l_StreamReader.Close();
+                int l_ID = l_reader.GetInt32(0);
+                string l_Raisonsociale = l_reader.GetString(1);
+                string l_codepostale = l_reader.GetString(2);
+                string l_commune = l_reader.GetString(3);
+                string l_mail = l_reader.GetString(4);
+                string l_URL = l_reader.GetString(5);
+                l_dicEntreprise.Add(l_ID, new cls_entreprise(l_ID, l_Raisonsociale,l_codepostale,l_mail,l_commune,l_URL //l_reader.GetValue(2) is DBNull ? null : l_reader.GetString(2)/));
             }
-            return l_dic_entreprise;
+            l_reader.Close();
+            l_reader = null;
+            return l_dicEntreprise;
         }
+
     }
 }

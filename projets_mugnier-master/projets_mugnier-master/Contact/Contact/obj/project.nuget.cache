@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lHQv7ZiM6RsPx/sj8ykYVOOYorxBQMwDWnrr2+vF/+xzofpbfjX+NJHf051081HK1TH99jB5kryIvu7gNHVX+A==",
+  "dgSpecHash": "6zLJWenXaWyqp1N8tcTL4Ab73BrRJsfepDUulme4SJ2XaJT2jG7GSfiZhMO/acagrY44lb8CvNlXWplDwwtz/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\LC\\Documents\\Cours\\Vivet\\projets_mugnier-master\\projets_mugnier-master\\Contact\\Contact\\Contact.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\LC\\.nuget\\packages\\npgsql\\6.0.4\\npgsql.6.0.4.nupkg.sha512",
+    "C:\\Users\\LC\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
