@@ -76,7 +76,7 @@ namespace Library.B
                 string l_commune = l_reader.GetString(3);
                 string l_mail = l_reader.GetString(4);
                 string l_URL = l_reader.GetString(5);
-                l_dicEntreprise.Add(l_ID, new cls_entreprise(l_ID, l_Raisonsociale,l_codepostale,l_mail,l_commune,l_URL //l_reader.GetValue(2) is DBNull ? null : l_reader.GetString(2)/));
+                l_dicEntreprise.Add(l_ID, new cls_entreprise(l_ID, l_Raisonsociale,l_codepostale,l_mail,l_commune,l_URL, l_reader.GetValue(2) is DBNull ? null : l_reader.GetString(2)));
             }
             l_reader.Close();
             l_reader = null;

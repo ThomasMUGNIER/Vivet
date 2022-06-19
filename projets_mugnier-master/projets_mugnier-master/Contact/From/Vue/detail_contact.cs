@@ -50,7 +50,7 @@ namespace From.Vue
         }
 
         /// <summary>
-        /// Permet d'enregistrer les changements
+        /// Enregistrer les modification
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

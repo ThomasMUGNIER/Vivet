@@ -37,29 +37,21 @@ namespace From
         }
 
         /// <summary>
-        /// Gère le chargement en mémoire des entreprises et des contacts, puis les affiche dans leurs listBox respectives
+        /// Charge en mémoire des entreprises et des contacts, puis les affiche
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            // Permet de créer les entreprises et les contacts et de les enregistrer dans un fichier CSV
+            // Permet de gerer les actions import, sauvegarder d'entreprise
             c_dic_entreprise = c_DAO_entreprise.cree_entreprise();
             c_DAO_entreprise.save_entreprise_CSV(c_dic_entreprise.Values.ToList());
             c_dic_contact = c_DAO_contact.cree_contact(c_dic_entreprise.Values.ToList());
             c_DAO_contact.save_contact_CSV(c_dic_contact.Values.ToList());
-
-            // Permet de générer les entreprises à partir d'un fichier au format CSV
             c_dic_entreprise = c_DAO_entreprise.lire_entreprise_CSV();
-
-            // Permet d'ajouter les entreprises générées à la liste de l'application
             list_entreprise.Items.AddRange(c_dic_entreprise.Values.ToArray());
-
-            // Permet de générer les contacts à partir d'un fichier au format CSV
             c_dic_contact = c_DAO_contact.lire_contact_CSV(c_dic_entreprise.Values.ToList());
-
-            // Permet d'ajouter les contacts générées à la liste de l'application
             list_contact.Items.AddRange(c_dic_contact.Values.ToArray());
         }
         /// <summary>
@@ -179,14 +171,24 @@ namespace From
             MessageBox.Show("Contacts exportés avec succès");
         }
 
+        /// <summary>
+        /// Permet de crée un nouveau contact
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             detail_contact l_detail_contact = new(null, this);
         }
 
+        /// <summary>
+        /// Permet de supprimer un contact
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Êtes-vous sûr de vouloir supprimer le contact sélectionné ?", "Supprimer contact", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Voulait vous supprimer le contact sélectionné ?", "Supprimer contact", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result.Equals(DialogResult.Yes))
             {
@@ -194,6 +196,11 @@ namespace From
             }
         }
 
+        /// <summary>
+        /// Permet d'ajouter une nouvelle entreprise
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
             detail_entreprise l_FrmDetailEntreprise = new(null, this);
@@ -201,9 +208,14 @@ namespace From
             l_FrmDetailEntreprise.ShowDialog();
         }
 
+        /// <summary>
+        /// Permet de supprimer une entreprise
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button4_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Êtes-vous sûr de vouloir supprimer l'entreprise sélectionnée ?", "Supprimer entreprise", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Voulais vous supprimer l'entreprise sélectionnée ?", "Supprimer entreprise", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result.Equals(DialogResult.Yes))
             {
@@ -231,16 +243,9 @@ namespace From
         /// </summary>
         public void ImporterEntreprises()
         {
-            // Permet de supprimer la liste précédente des entreprises
             list_entreprise.Items.Clear();
-
-            // Permet de générer les entreprises à partir d'un fichier au format CSV
             c_dic_entreprise = c_DAO_entreprise.lire_entreprise_CSV();
-
-            // Permet d'ajouter les entreprises générées à la liste de l'application
             list_entreprise.Items.AddRange(c_dic_entreprise.Values.ToArray());
-
-            // Renvoie sur le bon onglet
             Page1.SelectedIndex = 1;
         }
 
@@ -249,13 +254,8 @@ namespace From
         /// </summary>
         public void ExporterEntreprises()
         {
-            // Permet de récupérer la liste des entreprises sous forme d'un tableau
             list_entreprise.Items.CopyTo(c_dic_entreprise.Values.ToArray(), 0);
-
-            // Enregistre les entreprises dans un fichier CSV
             c_DAO_entreprise.save_entreprise_CSV(c_dic_entreprise.Values.ToList());
-
-            // Renvoie sur le bon onglet
             Page1.SelectedIndex = 1;
         }
 
@@ -264,17 +264,10 @@ namespace From
         /// </summary>
         public void ImporterContacts()
         {
-            // Permet de supprimer la liste précédente des contacts
             list_contact.Items.Clear();
-
-            // Permet de générer les contact à partir d'un fichier au format CSV
             c_dic_entreprise = c_DAO_entreprise.lire_entreprise_CSV();
             c_dic_contact = c_DAO_contact.lire_contact_CSV(c_dic_entreprise.Values.ToList());
-
-            // Permet d'ajouter les entreprises générées à la liste de l'application
             list_contact.Items.AddRange(c_dic_contact.Values.ToArray());
-
-            // Renvoie sur le bon onglet
             Page1.SelectedIndex = 0;
         }
 
@@ -283,14 +276,9 @@ namespace From
         /// </summary>
         public void ExporterContacts()
         {
-            // Permet de récupérer la liste des entreprises sous forme d'un tableau
             list_entreprise.Items.CopyTo(c_dic_entreprise.Values.ToArray(), 0);
             list_contact.Items.CopyTo(c_dic_contact.Values.ToArray(), 0);
-
-            // Enregistre les contacts dans un fichier CSV
             c_DAO_contact.save_contact_CSV(c_dic_contact.Values.ToList());
-
-            // Renvoie sur le bon onglet
             Page1.SelectedIndex = 0;
         }
 

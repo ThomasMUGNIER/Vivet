@@ -91,7 +91,6 @@ namespace Library.B
             string mail = l_tabInfosSTR[5];
             string phone = l_tabInfosSTR[6];
             string l_ID = l_tabInfosSTR[7];
-            // Pour gérer la liaison avec les entreprises quand on importe le fichier CSV
             if (l_ID != "")
             {
                 return new cls_contact(nom, prenom, datedenaissance, Adresse, mail, phone, ID, entreprise_by_ID(int.Parse(l_ID), p_list_entreprise));
@@ -103,7 +102,7 @@ namespace Library.B
         }
 
         /// <summary>
-        /// Lire le CSV des contacts et de les transformer en objet
+        /// Lire le CSV des contacts
         /// </summary>
         /// <param name="p_list_entreprise"></param>
         /// <returns></returns>
@@ -139,6 +138,11 @@ namespace Library.B
             return start.AddDays(l_date.Next(l_range));
         }
 
+        /// </summary>
+        /// <returns></returns>
+        /// <summary>
+        /// Retourner un nunéro de téléphone aléatoire
+        /// </summary>
         public static string phonerandom()
         {
             Random l_random = new();
@@ -147,18 +151,14 @@ namespace Library.B
             return l_phone;
         }
 
-        public static int CalculAge(DateTime pDateDeNaissance)
+        /// </summary>
+        /// <returns></returns>
+        /// <summary>
+        /// Permet de calculer l'âge
+        /// </summary>
+        public static int CalculAge(DateTime pdatedenaissance)
         {
-            int Age = Convert.ToInt32(pDateDeNaissance.Year - DateTime.Now.Year);
-
-            if (pDateDeNaissance.Month <= DateTime.Now.Month)
-            {
-                if (pDateDeNaissance.Month == DateTime.Now.Month && pDateDeNaissance.Day <= DateTime.Now.Day)
-                {
-                    Age--;
-                    return Age;
-                }
-            }
+            int Age = Convert.ToInt32(pdatedenaissance.Year - DateTime.Now.Year);
 
             return Age;
         }
