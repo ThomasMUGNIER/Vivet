@@ -1,9 +1,0 @@
-Serveur web utiliser par Angular est NodeJS qui est serveur d'environnement
-
-Notre code est interprete par le serveur et ensuite retranscrit sur une page web
-Pour démarrer le serveur on utilise la code ng serve
-
-Que est ce que le client
-Comment transsite les données
-
-Le counteur compte chaque cliquez a l'aide du serveur nodeJS et le stock dans la RAM
